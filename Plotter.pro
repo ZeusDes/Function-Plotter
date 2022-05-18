@@ -1,6 +1,6 @@
 QT       += core gui
 
-greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
+greaterThan(QT_MAJOR_VERSION, 4): QT += widgets printsupport
 
 CONFIG += c++11
 
@@ -8,12 +8,19 @@ CONFIG += c++11
 # In order to do so, uncomment the following line.
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
+INCLUDEPATH += ./src/
+INCLUDEPATH += ./headers/
+
 SOURCES += \
     src/main.cpp \
-    src/mainwindow.cpp
+    src/mainwindow.cpp\
+    src/qcustomplot.cpp
 
 HEADERS += \
-    headers/mainwindow.h
+    headers/evaluatePostfix.h \
+    headers/mainwindow.h \
+    headers/qcustomplot.h \
+    headers/validateInput.h
 
 FORMS += \
     forms/mainwindow.ui

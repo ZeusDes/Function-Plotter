@@ -4,18 +4,23 @@
 #include <QMainWindow>
 
 QT_BEGIN_NAMESPACE
-namespace Ui { class MainWindow; }
+namespace Ui { class Function_Plotter; }
 QT_END_NAMESPACE
 
-class MainWindow : public QMainWindow
+class Function_Plotter : public QMainWindow
 {
     Q_OBJECT
 
 public:
-    MainWindow(QWidget *parent = nullptr);
-    ~MainWindow();
+    Function_Plotter(QWidget *parent = nullptr);
+    ~Function_Plotter();
+
+private slots:
+    void on_startPoint_valueChanged(int arg1);
+
+    void on_PlotButton_clicked();
 
 private:
-    Ui::MainWindow *ui;
+    Ui::Function_Plotter *ui;
 };
 #endif // MAINWINDOW_H

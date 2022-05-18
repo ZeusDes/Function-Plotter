@@ -1,11 +1,11 @@
-#include "../headers/mainwindow.h"
+#include "mainwindow.h"
 
 #include <QApplication>
 
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    MainWindow w;
+    Function_Plotter w;
     w.show();
     return a.exec();
 }
