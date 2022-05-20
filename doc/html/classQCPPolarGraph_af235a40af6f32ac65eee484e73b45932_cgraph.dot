@@ -1,0 +1,37 @@
+digraph "QCPPolarGraph::rescaleValueAxis"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="QCPPolarGraph::rescaleValueAxis",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="QCPRange::expand",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPRange.html#a0fa1bc8048be50d52bea93a8caf08305",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="QCPPolarGraph::getValueRange",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPPolarGraph.html#a8bd386c0454a26fed114ac7725fd2511",tooltip=" "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="QCPPolarGraph::keyAxis",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPPolarGraph.html#a4a4f714e9e47a59806180ec087eb6262",tooltip=" "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="QCPPolarAxisRadial\l::range",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPPolarAxisRadial.html#a9b61a998e6ef4a46dd26bf0fcfd70640",tooltip=" "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="QCPPolarAxisAngular\l::range",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPPolarAxisAngular.html#a6f9155eec81c0e3f9194a78dda3a70da",tooltip=" "];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="QCPPolarAxisRadial\l::scaleType",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPPolarAxisRadial.html#a0860a6f537556283f82ea10ce648f41b",tooltip=" "];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="QCPPolarAxisRadial\l::setRange",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPPolarAxisRadial.html#a6a1ee54cda58cc96bd805b533ba081b0",tooltip=" "];
+  Node8 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="QCPRange::sanitizedForLin\lScale",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPRange.html#a808751fdd9b17ef52327ba011df2e5f1",tooltip=" "];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="QCPRange::normalize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPRange.html#af914a7740269b0604d0827c634a878a9",tooltip=" "];
+  Node8 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="QCPRange::sanitizedForLog\lScale",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPRange.html#a3d66288d66e1d6df3636075eb42502ee",tooltip=" "];
+  Node11 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="QCPRange::validRange",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPRange.html#ab38bd4841c77c7bb86c9eea0f142dcc0",tooltip=" "];
+  Node1 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="QCPRange::size",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPRange.html#a62326e7cc4316b96df6a60813230e63f",tooltip=" "];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="QCPPolarGraph::valueAxis",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPPolarGraph.html#a0dd08cc1a5fd2d66792c927313cda5d4",tooltip=" "];
+}

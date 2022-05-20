@@ -1,0 +1,40 @@
+digraph "QCPLayoutGrid::addElement"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="QCPLayoutGrid::addElement",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="QCPLayout::adoptElement",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPLayout.html#af6dbbc24156a808da29cd1ec031729a3",tooltip=" "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="QCPLayerable::initialize\lParentPlot",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPLayerable.html#a8cbe5a0c9a5674249982f5ca5f8e02bc",tooltip=" "];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="QCPLayerable::parentPlot",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPLayerable.html#a473edb813a4c1929d6b6a8fe3ff3faf7",tooltip=" "];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="QCPLayerable::parentPlot\lInitialized",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPLayerable.html#ab20b7dbd8e0249ed61adb9622c427382",tooltip=" "];
+  Node5 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="QCPLayoutElement::layout\lChanged",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPLayoutElement.html#a765f041a73af0c2de41b41a5a03e31a4",tooltip=" "];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="QCPLayerable::setParentLayerable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPLayerable.html#aa23c893671f1f6744ac235cf2204cf3a",tooltip=" "];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="QCPLayerable::parentLayerable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPLayerable.html#aa78b7e644d2c519e1a9a6f2ac5fcd858",tooltip=" "];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="QCPLayoutGrid::element",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPLayoutGrid.html#a602b426609b4411cf6a93c3ddf3a381a",tooltip=" "];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="QCPLayoutGrid::expandTo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPLayoutGrid.html#a886c0dcbabd51a45da399e044552b685",tooltip=" "];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="QCPLayoutGrid::columnCount",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPLayoutGrid.html#a1a2962cbf45011405b64b913afa8e7a2",tooltip=" "];
+  Node10 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="QCPLayoutGrid::rowCount",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPLayoutGrid.html#a19c66fd76cbce58a8e94f33797e0c0aa",tooltip=" "];
+  Node1 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="QCPLayoutGrid::hasElement",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPLayoutGrid.html#ab0cf4f7edc9414a3bfaddac0f46dc0a0",tooltip=" "];
+  Node13 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="QCPLayoutElement::layout",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPLayoutElement.html#a4efdcbde9d28f410e5ef166c9d691deb",tooltip=" "];
+  Node1 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="QCPLayout::take",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPLayout.html#ada26cd17e56472b0b4d7fbbc96873e4c",tooltip=" "];
+}

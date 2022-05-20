@@ -1,0 +1,14 @@
+digraph "QCPAxisRect::setRangeZoomAxes"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="QCPAxisRect::setRangeZoomAxes",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="QCPAxisRect::axes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPAxisRect.html#a11657b8faebe9677180860e8057ede26",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="QCPAxis::orientation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPAxis.html#ab988ef4538e2655bb77bd138189cd42e",tooltip=" "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="QCPAxisRect::setRangeZoomAxes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPAxisRect.html#a9442cca2aa358405f39a64d51eca13d2",tooltip=" "];
+}

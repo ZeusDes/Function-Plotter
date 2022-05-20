@@ -1,0 +1,24 @@
+digraph "QCustomPlot::setNotAntialiasedElements"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="QCustomPlot::setNotAntialiased\lElements",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="QCPAxis::mouseMoveEvent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPAxis.html#ac5a269609e6177737faabdc46434d8c7",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="QCPAxisRect::mouseMoveEvent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPAxisRect.html#a9cd27ad8c5cfb49aefd9dbb30def4beb",tooltip=" "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="QCPPolarAxisRadial\l::mouseMoveEvent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPPolarAxisRadial.html#acaaca448f4599cc4d8b4d6a35f61e1e6",tooltip=" "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="QCPPolarAxisAngular\l::mouseMoveEvent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPPolarAxisAngular.html#a5e2b49c56b57abc2ac2005e330ef1ee7",tooltip=" "];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="QCPAxis::mouseReleaseEvent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPAxis.html#a780bee321fc6476e5fc49c4980291a01",tooltip=" "];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="QCPAxisRect::mouseRelease\lEvent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPAxisRect.html#a6c89b988d3a0b93c0878f0ebdb5037f4",tooltip=" "];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="QCPPolarAxisRadial\l::mouseReleaseEvent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPPolarAxisRadial.html#a4fbf24f4373f8a4a740ab83b53a22c85",tooltip=" "];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="QCPPolarAxisAngular\l::mouseReleaseEvent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPPolarAxisAngular.html#af1514482693091c40fbe802fce3c1db4",tooltip=" "];
+}

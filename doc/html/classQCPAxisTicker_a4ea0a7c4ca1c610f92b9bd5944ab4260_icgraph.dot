@@ -1,0 +1,26 @@
+digraph "QCPAxisTicker::pickClosest"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="QCPAxisTicker::pickClosest",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="QCPAxisTicker::cleanMantissa",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPAxisTicker.html#ac7df6c72876b7abd67c932663a0b0f6a",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="QCPAxisTickerLog::create\lTickVector",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPAxisTickerLog.html#af8873a8d1d2b9392d8f7a73218c889ab",tooltip=" "];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="QCPAxisTicker::getTickStep",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPAxisTicker.html#a910d69bcec2de37e92d8d4e1ecf201e2",tooltip=" "];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="QCPAxisTicker::generate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPAxisTicker.html#aefbd11725678ca824add8cf926cbc856",tooltip=" "];
+  Node2 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="QCPAxisTickerDateTime\l::getTickStep",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPAxisTickerDateTime.html#a0560c14a3f87bb99ab136aca8321b32a",tooltip=" "];
+  Node2 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="QCPAxisTickerTime::\lgetTickStep",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPAxisTickerTime.html#a5615064642090fe193797caea8b98cb4",tooltip=" "];
+  Node2 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="QCPAxisTickerFixed\l::getTickStep",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPAxisTickerFixed.html#a9e99da01ab92a86aed415eef32fed13a",tooltip=" "];
+  Node2 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="QCPAxisTickerPi::getTickStep",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPAxisTickerPi.html#a55301f0072983bd2d7c131a24e1779e7",tooltip=" "];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

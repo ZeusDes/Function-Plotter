@@ -1,0 +1,29 @@
+digraph "QCPItemEllipse::draw"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="QCPItemEllipse::draw",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="QCPAbstractItem::clipRect",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPAbstractItem.html#a6ad60000f29afe11035e1f791dcbd45a",tooltip=" "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="QCustomPlot::viewport",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCustomPlot.html#a19842409b18f556b256d05e97fffc670",tooltip=" "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="QCPItemEllipse::mainBrush",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPItemEllipse.html#a6218bdf5e703f609b934b0bf9c8d0971",tooltip=" "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="QCPItemEllipse::mainPen",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPItemEllipse.html#a9c11717026dfd685c83a9650666b7181",tooltip=" "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="QCPItemPosition::pixelPosition",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPItemPosition.html#a8be9a4787635433edecc75164beb748d",tooltip=" "];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="QCPItemAnchor::pixelPosition",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPItemAnchor.html#a06dcfb7220d26eee93eef56ae66582cb",tooltip=" "];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="QCPAbstractItem::anchorPixel\lPosition",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPAbstractItem.html#ada5bad4e1196c4fc0d0d12328e24b8f2",tooltip=" "];
+  Node6 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="QCPPainter::setPen",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPPainter.html#af9c7a4cd1791403901f8c5b82a150195",tooltip=" "];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="QCPPainter::makeNonCosmetic",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPPainter.html#a7e63fbcf47e35c6f2ecd11b8fef7c7d8",tooltip=" "];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="QCPLayerable::setVisible",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPLayerable.html#a3bed99ddc396b48ce3ebfdc0418744f8",tooltip=" "];
+}

@@ -1,0 +1,21 @@
+digraph "QCPAxisRect::layoutChanged"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="QCPAxisRect::layoutChanged",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="QCPAxisRect::axis",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPAxisRect.html#a583ae4f6d78b601b732183f6cabecbe1",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="QCPAxisRect::axisCount",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPAxisRect.html#a85b321acec0f694d8b5fdeafdbff3133",tooltip=" "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="QCustomPlot::axisRect",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCustomPlot.html#ae5eefcb5f6ca26689b1fd4f6e25b42f9",tooltip=" "];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="QCustomPlot::axisRects",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCustomPlot.html#a12af771429e2d7e313c8c5d5fca068fe",tooltip=" "];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="QCPLayoutElement::elements",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPLayoutElement.html#a76dec8cb31e498994a944d7647a43309",tooltip=" "];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="QCustomPlot::axisRectCount",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCustomPlot.html#a8f85940aaac50efb466287d9d2d04ec6",tooltip=" "];
+  Node7 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

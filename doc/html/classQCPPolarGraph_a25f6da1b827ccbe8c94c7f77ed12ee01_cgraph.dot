@@ -1,0 +1,16 @@
+digraph "QCPPolarGraph::applyFillAntialiasingHint"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="QCPPolarGraph::applyFill\lAntialiasingHint",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="QCPLayerable::applyAntialiasingHint",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPLayerable.html#acb663e375d2d36dc5c55021ee5a2119b",tooltip=" "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="QCustomPlot::antialiased\lElements",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCustomPlot.html#a631762eb183aceecee73d30e108641ee",tooltip=" "];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="QCustomPlot::notAntialiased\lElements",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCustomPlot.html#a75571bc5b2167e83def132fc993091b3",tooltip=" "];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="QCPPainter::setAntialiasing",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPPainter.html#aaba1deb9188244d9ea65b035112b4d05",tooltip=" "];
+}

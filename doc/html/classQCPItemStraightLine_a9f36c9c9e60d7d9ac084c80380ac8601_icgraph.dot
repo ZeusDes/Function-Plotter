@@ -1,0 +1,10 @@
+digraph "QCPItemStraightLine::setPen"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="QCPItemStraightLine\l::setPen",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="QCPItemStraightLine\l::QCPItemStraightLine",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPItemStraightLine.html#a41fd2e1f006983449eca9830930c3b10",tooltip=" "];
+}

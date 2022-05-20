@@ -1,0 +1,36 @@
+digraph "QCPLayerable::moveToLayer"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="QCPLayerable::moveToLayer",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="QCustomPlot::removeLayer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCustomPlot.html#a40f75e342c5eaab6a86066a42a0e2a94",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="QCPLayerable::setLayer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPLayerable.html#ab0d0da6d2de45a118886d2c8e16d5a54",tooltip=" "];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="QCPAbstractLegendItem\l::QCPAbstractLegendItem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPAbstractLegendItem.html#afaff87610e8da0fa238ecf552872d774",tooltip=" "];
+  Node3 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="QCPAxis::QCPAxis",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPAxis.html#ac62c042968bae0e6d474fcfc57c9b71f",tooltip=" "];
+  Node3 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="QCPColorScaleAxisRectPrivate\l::QCPColorScaleAxisRectPrivate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPColorScaleAxisRectPrivate.html#ad3b242f75dd2b33581364a4e668a80db",tooltip=" "];
+  Node3 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="QCPLayerable::QCPLayerable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPLayerable.html#a4f87f420cb2597e2b393aab934d2f099",tooltip=" "];
+  Node3 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="QCPPolarAxisAngular\l::QCPPolarAxisAngular",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPPolarAxisAngular.html#afd2ca3525663193c15bc876a293ceb24",tooltip=" "];
+  Node3 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="QCustomPlot::QCustomPlot",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCustomPlot.html#a3c1c171f620ef0ea4ae3dbb2e6a0209a",tooltip=" "];
+  Node3 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="QCustomPlot::registerItem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCustomPlot.html#afbd4010b2e3f364c8d512691b2a1640a",tooltip=" "];
+  Node10 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="QCPAbstractItem::QCPAbstractItem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPAbstractItem.html#a9922507d8b4503a1fe1ed0b1030e23b6",tooltip=" "];
+  Node3 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="QCustomPlot::registerPlottable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCustomPlot.html#aeba7733bb9fadfb5a375b3f40de9e58a",tooltip=" "];
+  Node12 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="QCPAbstractPlottable\l::QCPAbstractPlottable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPAbstractPlottable.html#af78a036e40db6f53a31abadc5323715a",tooltip=" "];
+  Node3 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="QCPPolarAxisAngular\l::registerPolarGraph",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPPolarAxisAngular.html#a05dabed291d5997541b87b64ceda2050",tooltip=" "];
+  Node3 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="QCPLayerable::setLayer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPLayerable.html#ab25a0e7b897993b44447caee0f142083",tooltip=" "];
+}

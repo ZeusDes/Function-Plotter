@@ -1,0 +1,14 @@
+digraph "QCPLegend::selectionChanged"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="QCPLegend::selectionChanged",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="QCPLegend::setSelectedParts",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPLegend.html#a2aee309bb5c2a794b1987f3fc97f8ad8",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="QCPLegend::deselectEvent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPLegend.html#ac2066837f7ebc32a5b15434cdca5b176",tooltip=" "];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="QCPLegend::selectEvent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPLegend.html#a71f54a05c3e5b1a1ade1864422cd642e",tooltip=" "];
+}

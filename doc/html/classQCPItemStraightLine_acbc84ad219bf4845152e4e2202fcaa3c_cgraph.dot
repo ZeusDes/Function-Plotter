@@ -1,0 +1,35 @@
+digraph "QCPItemStraightLine::draw"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="QCPItemStraightLine\l::draw",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="QCPAbstractItem::clipRect",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPAbstractItem.html#a6ad60000f29afe11035e1f791dcbd45a",tooltip=" "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="QCustomPlot::viewport",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCustomPlot.html#a19842409b18f556b256d05e97fffc670",tooltip=" "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="QCPPainter::drawLine",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPPainter.html#a0b4b1b9bd495e182c731774dc800e6e0",tooltip=" "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="QCPItemStraightLine\l::getRectClippedStraightLine",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPItemStraightLine.html#a4dc8f987e0a8e4dfc0c8568923456e0c",tooltip=" "];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="QCPVector2D::toPointF",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPVector2D.html#acd7af3f4a62833ada58be3f3021dbbac",tooltip=" "];
+  Node5 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="QCPVector2D::x",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPVector2D.html#a4a099e1f9788d52cb46deb8139aa6195",tooltip=" "];
+  Node5 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="QCPVector2D::y",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPVector2D.html#a6398fb643ba380d7961a4b208f4eecf1",tooltip=" "];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="QCPItemStraightLine\l::mainPen",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPItemStraightLine.html#a5b1a39cfc54c3e22f65de2958d40eb59",tooltip=" "];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="QCPItemPosition::pixelPosition",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPItemPosition.html#a8be9a4787635433edecc75164beb748d",tooltip=" "];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="QCPItemAnchor::pixelPosition",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPItemAnchor.html#a06dcfb7220d26eee93eef56ae66582cb",tooltip=" "];
+  Node11 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="QCPAbstractItem::anchorPixel\lPosition",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPAbstractItem.html#ada5bad4e1196c4fc0d0d12328e24b8f2",tooltip=" "];
+  Node10 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="QCPPainter::setPen",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPPainter.html#af9c7a4cd1791403901f8c5b82a150195",tooltip=" "];
+  Node13 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="QCPPainter::makeNonCosmetic",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPPainter.html#a7e63fbcf47e35c6f2ecd11b8fef7c7d8",tooltip=" "];
+}

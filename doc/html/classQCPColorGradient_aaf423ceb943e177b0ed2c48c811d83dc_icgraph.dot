@@ -1,0 +1,18 @@
+digraph "QCPColorGradient::colorize"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="QCPColorGradient::colorize",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="QCPColorScaleAxisRectPrivate\l::updateGradientImage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPColorScaleAxisRectPrivate.html#a73754cab312aeaddea1bfcc67cc079ac",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="QCPColorScaleAxisRectPrivate\l::draw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPColorScaleAxisRectPrivate.html#a52a21c7cbe086cd587c955cfe6e25e3b",tooltip=" "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="QCPColorMap::updateMapImage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPColorMap.html#a5efcea591bb5486d968af520a4d43c3a",tooltip=" "];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="QCPColorMap::draw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPColorMap.html#a6b628014d2939368935efd0a788648c8",tooltip=" "];
+  Node4 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="QCPColorMap::updateLegendIcon",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPColorMap.html#a5d8158b62d55fcfeaabcb68ce0083e87",tooltip=" "];
+}

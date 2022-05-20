@@ -1,0 +1,12 @@
+digraph "QCPSelectionDecorator::setScatterStyle"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="QCPSelectionDecorator\l::setScatterStyle",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="QCPSelectionDecorator\l::scatterStyle",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPSelectionDecorator.html#aa6558f6f270a188bb633386aba0d1ae4",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="QCPSelectionDecorator\l::setUsedScatterProperties",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPSelectionDecorator.html#a808c1607cd4e83869c04986e332455c0",tooltip=" "];
+}

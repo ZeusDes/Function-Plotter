@@ -1,0 +1,15 @@
+digraph "QCPItemEllipse::brush"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="QCPItemEllipse::brush",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="QCPItemEllipse::setBrush",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPItemEllipse.html#a49fc74e6965834e873d027d026def798",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="QCPItemEllipse::QCPItemEllipse",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPItemEllipse.html#a759b77ef002515eba0263b5447ecb3fb",tooltip=" "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="QCPItemEllipse::setSelected\lBrush",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPItemEllipse.html#a9693501cfaa43a099655c75bed0dab3f",tooltip=" "];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

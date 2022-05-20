@@ -1,0 +1,20 @@
+digraph "QCPAxisRect::items"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="QCPAxisRect::items",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="QCPAxis::axisRect",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPAxis.html#afc94bcfdf8adfe8e01013f13bdf159a2",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="QCPItemPosition::axisRect",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPItemPosition.html#ae4081cfe7575f922f403c6e3a2ce7891",tooltip=" "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="QCPAbstractItem::clipAxisRect",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPAbstractItem.html#ae162314efd3fe1a6d4df11da1d275d52",tooltip=" "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="QCPItemPosition::keyAxis",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPItemPosition.html#a9ad34861fbfd8be8b8270c16f879169c",tooltip=" "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="QCPAbstractItem::positions",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPAbstractItem.html#a709f655ac3f7f22d452714134662b454",tooltip=" "];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="QCPItemPosition::valueAxis",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPItemPosition.html#a356ac94e7e73d88deb7f2841c0d0c734",tooltip=" "];
+}

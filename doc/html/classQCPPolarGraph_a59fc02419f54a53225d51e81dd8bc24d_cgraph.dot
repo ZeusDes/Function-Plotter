@@ -1,0 +1,47 @@
+digraph "QCPPolarGraph::drawLegendIcon"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="QCPPolarGraph::drawLegendIcon",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="QCPPolarGraph::applyDefault\lAntialiasingHint",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPPolarGraph.html#acc25e8bb9c15d27efdf1d9071bb1e74d",tooltip=" "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="QCPLayerable::applyAntialiasingHint",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPLayerable.html#acb663e375d2d36dc5c55021ee5a2119b",tooltip=" "];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="QCustomPlot::antialiased\lElements",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCustomPlot.html#a631762eb183aceecee73d30e108641ee",tooltip=" "];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="QCustomPlot::notAntialiased\lElements",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCustomPlot.html#a75571bc5b2167e83def132fc993091b3",tooltip=" "];
+  Node3 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="QCPPainter::setAntialiasing",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPPainter.html#aaba1deb9188244d9ea65b035112b4d05",tooltip=" "];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="QCPPolarGraph::applyFill\lAntialiasingHint",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPPolarGraph.html#a25f6da1b827ccbe8c94c7f77ed12ee01",tooltip=" "];
+  Node7 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="QCPPolarGraph::applyScatters\lAntialiasingHint",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPPolarGraph.html#a7c1a02b4517ce13b64f580784dc9053e",tooltip=" "];
+  Node8 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="QCPScatterStyle::applyTo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPScatterStyle.html#afd8044ece445300499ca0dc164821e0f",tooltip=" "];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="QCPPainter::setPen",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPPainter.html#af9c7a4cd1791403901f8c5b82a150195",tooltip=" "];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="QCPPainter::makeNonCosmetic",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPPainter.html#a7e63fbcf47e35c6f2ecd11b8fef7c7d8",tooltip=" "];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="QCPPainter::drawLine",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPPainter.html#a0b4b1b9bd495e182c731774dc800e6e0",tooltip=" "];
+  Node1 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="QCPScatterStyle::drawShape",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPScatterStyle.html#a89b5105e6027bfcbfeefed9d201b607c",tooltip=" "];
+  Node1 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="QCPScatterStyle::isNone",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPScatterStyle.html#a72db6bcb1e1abd6e53c1315dd3dea7e4",tooltip=" "];
+  Node1 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="QCPScatterStyle::pixmap",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPScatterStyle.html#a9b2d1a2ec0aac0c74f7582d14050e93a",tooltip=" "];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="QCPScatterStyle::setPixmap",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPScatterStyle.html#a5fb611d46acfac520d7b89a1c71d9246",tooltip=" "];
+  Node16 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="QCPScatterStyle::setShape",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPScatterStyle.html#a7c641c4d4c6d29cb705d3887cfce91c1",tooltip=" "];
+  Node17 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="QCPScatterStyle::shape",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPScatterStyle.html#af04cad55bd7f58a96da4fc6bc46a0a1e",tooltip=" "];
+  Node1 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

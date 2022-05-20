@@ -1,0 +1,18 @@
+digraph "QCPLayerable::visible"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="QCPLayerable::visible",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="QCPGrid::setSubGridVisible",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPGrid.html#ad4ad6bf714ec45e08845456355a1b700",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="QCPAxis::setupTickVectors",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPAxis.html#a57d9e961bae7d62f5b4e1f143e660c78",tooltip=" "];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="QCPAxisRect::update",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPAxisRect.html#add049d464b9ef2ccdc638adc4ccb4aca",tooltip=" "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="QCPPolarAxisAngular\l::setupTickVectors",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPPolarAxisAngular.html#a7c0b6a474a7d35f38e140c73bb8aa503",tooltip=" "];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="QCPPolarAxisAngular\l::update",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPPolarAxisAngular.html#a9f2dfb377cdf3ce22a451fa9d3ab47e6",tooltip=" "];
+}

@@ -1,0 +1,10 @@
+digraph "QCPAbstractPaintBuffer::setDevicePixelRatio"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="QCPAbstractPaintBuffer\l::setDevicePixelRatio",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="QCPAbstractPaintBuffer\l::reallocateBuffer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPAbstractPaintBuffer.html#aee7506a52bd7e5a07c2af27935eb13e7",tooltip=" "];
+}

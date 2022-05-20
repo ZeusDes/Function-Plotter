@@ -1,0 +1,28 @@
+digraph "QCPPolarAxisAngular::rangeChanged"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="QCPPolarAxisAngular\l::rangeChanged",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="QCPPolarAxisAngular\l::moveRange",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPPolarAxisAngular.html#af5d19f1b60eba481e735829c5e9ec433",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="QCPPolarAxisAngular\l::scaleRange",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPPolarAxisAngular.html#a3f1783650404238080da4d5fd99dd81e",tooltip=" "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="QCPPolarAxisAngular\l::setRange",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPPolarAxisAngular.html#aff1a9a85cc7f5f3493b4aae8213f7cbe",tooltip=" "];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="QCPPolarAxisAngular\l::mouseMoveEvent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPPolarAxisAngular.html#a5e2b49c56b57abc2ac2005e330ef1ee7",tooltip=" "];
+  Node4 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="QCPPolarAxisAngular\l::rescale",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPPolarAxisAngular.html#aa8eace1f019b6c858473a192be088762",tooltip=" "];
+  Node4 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="QCPPolarGraph::rescaleKeyAxis",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPPolarGraph.html#acd162935a3a36671da9ac89fecd88a71",tooltip=" "];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="QCPPolarGraph::rescaleAxes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPPolarGraph.html#a52d6dd17af9fc2fdc01ac5ad73a60a60",tooltip=" "];
+  Node4 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="QCPPolarAxisAngular\l::setRange",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPPolarAxisAngular.html#a10d361152ed9ccf68ecf682ac82b4442",tooltip=" "];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="QCPPolarAxisAngular\l::setRangeLower",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPPolarAxisAngular.html#a8b82f5859601eb1e70b8220794058c38",tooltip=" "];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="QCPPolarAxisAngular\l::setRangeUpper",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPPolarAxisAngular.html#a4b395b3cd4d43caa506351d35b3f401d",tooltip=" "];
+}

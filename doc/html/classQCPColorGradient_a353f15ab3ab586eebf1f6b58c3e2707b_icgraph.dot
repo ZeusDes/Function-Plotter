@@ -1,0 +1,33 @@
+digraph "QCPColorGradient::updateColorBuffer"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="QCPColorGradient::update\lColorBuffer",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="QCPColorGradient::color",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPColorGradient.html#a0599545c859268b025d2060dea741cea",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="QCPColorGradient::setColor\lStopAt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPColorGradient.html#a3b48be5e78079db1bb2a1188a4c3390e",tooltip=" "];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="QCPColorGradient::inverted",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPColorGradient.html#a9f72f501de429829ec446333316decda",tooltip=" "];
+  Node3 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="QCPColorGradient::loadPreset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPColorGradient.html#aa0aeec1528241728b9671bf8e60b1622",tooltip=" "];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="QCPColorGradient::QCPColor\lGradient",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPColorGradient.html#a4e570b4004fd60bd135e52d685ed2b66",tooltip=" "];
+  Node2 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="QCPColorGradient::setNan\lColor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPColorGradient.html#abb1c11bdd1701c66e573aaff593c5c2d",tooltip=" "];
+  Node2 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="QCPColorScaleAxisRectPrivate\l::updateGradientImage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPColorScaleAxisRectPrivate.html#a73754cab312aeaddea1bfcc67cc079ac",tooltip=" "];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="QCPColorScaleAxisRectPrivate\l::draw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPColorScaleAxisRectPrivate.html#a52a21c7cbe086cd587c955cfe6e25e3b",tooltip=" "];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="QCPColorGradient::colorize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPColorGradient.html#aaf423ceb943e177b0ed2c48c811d83dc",tooltip=" "];
+  Node10 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="QCPColorMap::updateMapImage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPColorMap.html#a5efcea591bb5486d968af520a4d43c3a",tooltip=" "];
+  Node11 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="QCPColorMap::draw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPColorMap.html#a6b628014d2939368935efd0a788648c8",tooltip=" "];
+  Node11 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="QCPColorMap::updateLegendIcon",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPColorMap.html#a5d8158b62d55fcfeaabcb68ce0083e87",tooltip=" "];
+}

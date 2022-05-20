@@ -1,0 +1,14 @@
+digraph "QCPAxisTickerText::setTicks"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="QCPAxisTickerText::\lsetTicks",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="QCPAxisTickerText::\laddTicks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPAxisTickerText.html#aba34051300eecaefbedb2df8feff2d45",tooltip=" "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="QCPAxisTickerText::\lticks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPAxisTickerText.html#ac84622a6bb4f2a98474e185ecaf3189a",tooltip=" "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="QCPAxisTickerText::\lclear",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPAxisTickerText.html#a21826d2fcd9a25c194d34d4f67aa1460",tooltip=" "];
+}

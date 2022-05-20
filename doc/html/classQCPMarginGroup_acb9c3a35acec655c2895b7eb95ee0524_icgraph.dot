@@ -1,0 +1,12 @@
+digraph "QCPMarginGroup::addChild"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="QCPMarginGroup::addChild",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="QCPLayoutElement::setMargin\lGroup",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPLayoutElement.html#a516e56f76b6bc100e8e71d329866847d",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="QCPLayoutElement::\l~QCPLayoutElement",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPLayoutElement.html#a2fa26d3d22a2854c4da1d80f188db961",tooltip=" "];
+}

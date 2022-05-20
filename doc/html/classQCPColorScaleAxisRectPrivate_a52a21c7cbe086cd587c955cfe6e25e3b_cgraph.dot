@@ -1,0 +1,33 @@
+digraph "QCPColorScaleAxisRectPrivate::draw"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="QCPColorScaleAxisRectPrivate\l::draw",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="QCPAxisRect::draw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPAxisRect.html#af710c50530e370539a4439d6c4db9090",tooltip=" "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="QCPAxisRect::drawBackground",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPAxisRect.html#ab49d338d1ce74b476fcead5b32cf06dc",tooltip=" "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="QCPLayoutElement::rect",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPLayoutElement.html#a208effccfe2cca4a0eaf9393e60f2dd4",tooltip=" "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="QCPColorScale::type",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPColorScale.html#a85d7e286fbfc0c04c4b480aff3cb66fb",tooltip=" "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="QCPColorScaleAxisRectPrivate\l::updateGradientImage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPColorScaleAxisRectPrivate.html#a73754cab312aeaddea1bfcc67cc079ac",tooltip=" "];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="QCPColorGradient::color",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPColorGradient.html#a0599545c859268b025d2060dea741cea",tooltip=" "];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="QCPRange::size",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPRange.html#a62326e7cc4316b96df6a60813230e63f",tooltip=" "];
+  Node7 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="QCPColorGradient::update\lColorBuffer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPColorGradient.html#a353f15ab3ab586eebf1f6b58c3e2707b",tooltip=" "];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="QCPColorGradient::stopsUse\lAlpha",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPColorGradient.html#a137b368ea8829a871974add6e4883c71",tooltip=" "];
+  Node6 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="QCPColorGradient::colorize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPColorGradient.html#aaf423ceb943e177b0ed2c48c811d83dc",tooltip=" "];
+  Node11 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="QCPColorGradient::levelCount",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPColorGradient.html#ac4b9d7034fc3b6c76318b05075367090",tooltip=" "];
+  Node6 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

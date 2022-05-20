@@ -1,0 +1,10 @@
+digraph "QCPLayoutElement::autoMargins"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="QCPLayoutElement::autoMargins",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="QCPMarginGroup::commonMargin",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPMarginGroup.html#aea6a00373b3a0305de56c34d2423ea99",tooltip=" "];
+}

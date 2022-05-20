@@ -1,0 +1,41 @@
+digraph "QCPLabelPainterPrivate::drawLabelMaybeCached"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="QCPLabelPainterPrivate\l::drawLabelMaybeCached",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="QCustomPlot::bufferDevice\lPixelRatio",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCustomPlot.html#a53d35abe0f576f9838cde5d0bee47657",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="QCPLabelPainterPrivate\l::cacheKey",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPLabelPainterPrivate.html#afb364f2a2c031eba2a5d29d4f15e8ac0",tooltip=" "];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="QCPLabelPainterPrivate\l::color",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPLabelPainterPrivate.html#a2ec0bb5acdfbf0cc415a04b516596598",tooltip=" "];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="QCPLabelPainterPrivate\l::rotation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPLabelPainterPrivate.html#a277c90ccb57b40e0e573126bd9169174",tooltip=" "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="QCPLabelPainterPrivate\l::createCachedLabel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPLabelPainterPrivate.html#a9e27774565f186f0c4abbbd3f2e6c766",tooltip=" "];
+  Node6 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="QCPLabelPainterPrivate\l::drawText",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPLabelPainterPrivate.html#acaa4d01629c6939282993bf44eb0974d",tooltip=" "];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="QCPPainter::setPen",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPPainter.html#af9c7a4cd1791403901f8c5b82a150195",tooltip=" "];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="QCPPainter::makeNonCosmetic",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPPainter.html#a7e63fbcf47e35c6f2ecd11b8fef7c7d8",tooltip=" "];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="QCPLabelPainterPrivate\l::font",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPLabelPainterPrivate.html#aaf5c2671c285fa3f8c0491ea712fd98e",tooltip=" "];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="QCPLabelPainterPrivate\l::getTickLabelData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPLabelPainterPrivate.html#ada8cc30c2d8858c2ba668c7cab325bf8",tooltip=" "];
+  Node11 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="QCPLabelPainterPrivate\l::applyAnchorTransform",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPLabelPainterPrivate.html#ad4ef56482abdb53c80af35344556cb43",tooltip=" "];
+  Node11 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="QCPPainter::modes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPPainter.html#aef102658219b24165f7ee2aad1b9e48f",tooltip=" "];
+  Node1 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="QCustomPlot::plottingHints",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCustomPlot.html#ac724f4075822f74f7b676a790095b877",tooltip=" "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

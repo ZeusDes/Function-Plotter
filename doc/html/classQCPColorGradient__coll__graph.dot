@@ -1,0 +1,21 @@
+digraph "QCPColorGradient"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{QCPColorGradient\n||+ QCPColorGradient()\l+ QCPColorGradient()\l+ operator==()\l+ operator!=()\l+ levelCount()\l+ colorStops()\l+ colorInterpolation()\l+ nanHandling()\l+ nanColor()\l+ periodic()\land 13 more...\l# stopsUseAlpha()\l# updateColorBuffer()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Defines a color gradient for use with e.g. QCPColorMap."];
+  Node2 -> Node1 [color="grey25",fontsize="10",style="solid",label=" #mNanColor" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node2 [label="{QColor\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node3 -> Node1 [color="grey25",fontsize="10",style="solid",label=" #mNanHandling" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node3 [label="{NanHandling\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node4 -> Node1 [color="grey25",fontsize="10",style="solid",label=" #mColorInterpolation" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node4 [label="{ColorInterpolation\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node5 -> Node1 [color="grey25",fontsize="10",style="solid",label=" #mLevelCount" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node5 [label="{int\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node6 -> Node1 [color="grey25",fontsize="10",style="solid",label=" #mPeriodic\n#mColorBufferInvalidated" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node6 [label="{bool\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node7 -> Node1 [color="grey25",fontsize="10",style="solid",label=" #mColorBuffer" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node7 [label="{QVector\< QRgb \>\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node8 -> Node1 [color="grey25",fontsize="10",style="solid",label=" #mColorStops" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node8 [label="{QMap\< double, QColor \>\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+}

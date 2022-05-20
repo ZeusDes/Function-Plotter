@@ -1,0 +1,28 @@
+digraph "QCPItemBracket::anchorPixelPosition"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="QCPItemBracket::anchorPixel\lPosition",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="QCPVector2D::normalized",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPVector2D.html#a707bb3af3b1f9331a2450ec75eaf7eb0",tooltip=" "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="QCPVector2D::length",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPVector2D.html#a10adb5ab031fe94f0b64a3c5aefb552e",tooltip=" "];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="QCPVector2D::QCPVector2D",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPVector2D.html#a04c90748c3623044c79fa20788ffbcc6",tooltip=" "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="QCPVector2D::perpendicular",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPVector2D.html#a0e08d09f9027784237e302e32290b001",tooltip=" "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="QCPItemPosition::pixelPosition",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPItemPosition.html#a8be9a4787635433edecc75164beb748d",tooltip=" "];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="QCPItemAnchor::pixelPosition",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPItemAnchor.html#a06dcfb7220d26eee93eef56ae66582cb",tooltip=" "];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="QCPAbstractItem::anchorPixel\lPosition",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPAbstractItem.html#ada5bad4e1196c4fc0d0d12328e24b8f2",tooltip=" "];
+  Node6 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="QCustomPlot::viewport",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCustomPlot.html#a19842409b18f556b256d05e97fffc670",tooltip=" "];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="QCPVector2D::toPoint",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPVector2D.html#add3edf75de9b7bf1abc693b973b2e906",tooltip=" "];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="QCPVector2D::toPointF",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPVector2D.html#acd7af3f4a62833ada58be3f3021dbbac",tooltip=" "];
+}

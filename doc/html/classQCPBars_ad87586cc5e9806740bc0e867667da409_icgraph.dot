@@ -1,0 +1,23 @@
+digraph "QCPBars::getPixelWidth"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="QCPBars::getPixelWidth",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="QCPBars::getBarRect",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPBars.html#a01b87e38e5d5089d214646d2af7896ea",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="QCPBars::draw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPBars.html#aa267c20650d55084c3f47cb2f8fac9dc",tooltip=" "];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="QCPBars::getVisibleDataBounds",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPBars.html#ac8b6b514a665a7bff4fb080413ba996a",tooltip=" "];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="QCPBars::selectTest",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPBars.html#ae490d8589b7e5f5d7e2e5ee88ce3e6c2",tooltip=" "];
+  Node4 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="QCPBars::selectTestRect",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPBars.html#ab03bb6125c3e983b89d694f75ce6b3d5",tooltip=" "];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="QCPBars::getKeyRange",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPBars.html#ac5a3854774d9d9cd129b1eae1426de2d",tooltip=" "];
+}

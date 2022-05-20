@@ -1,0 +1,12 @@
+digraph "QCPFinancial::data"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="QCPFinancial::data",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="QCPFinancial::setData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPFinancial.html#a72089e75b8a50d18097526c3c79fdb85",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="QCPFinancial::timeSeries\lToOhlc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPFinancial.html#a9a058c035040d3939b8884f4aaccb1a7",tooltip=" "];
+}

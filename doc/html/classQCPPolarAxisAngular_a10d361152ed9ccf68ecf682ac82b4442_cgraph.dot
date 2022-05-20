@@ -1,0 +1,20 @@
+digraph "QCPPolarAxisAngular::setRange"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="QCPPolarAxisAngular\l::setRange",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="QCPPolarAxisAngular\l::setRange",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPPolarAxisAngular.html#aff1a9a85cc7f5f3493b4aae8213f7cbe",tooltip=" "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="QCPPolarAxisAngular\l::range",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPPolarAxisAngular.html#a6f9155eec81c0e3f9194a78dda3a70da",tooltip=" "];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="QCPRange::sanitizedForLin\lScale",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPRange.html#a808751fdd9b17ef52327ba011df2e5f1",tooltip=" "];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="QCPRange::normalize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPRange.html#af914a7740269b0604d0827c634a878a9",tooltip=" "];
+  Node2 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="QCPRange::validRange",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPRange.html#ab38bd4841c77c7bb86c9eea0f142dcc0",tooltip=" "];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="QCPPolarAxisAngular\l::size",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPPolarAxisAngular.html#a1513b98be721e6f8abb75aa49932cf20",tooltip=" "];
+}

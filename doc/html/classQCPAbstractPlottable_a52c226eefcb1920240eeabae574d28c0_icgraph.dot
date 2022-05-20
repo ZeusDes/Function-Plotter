@@ -1,0 +1,26 @@
+digraph "QCPAbstractPlottable::name"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="QCPAbstractPlottable\l::name",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="QCPPlottableLegendItem\l::draw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPPlottableLegendItem.html#a5838366619200e99680afa6d355d13fa",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="QCPGraph::draw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPGraph.html#a2b0849598f06e834b43ce18cd13bcdc3",tooltip=" "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="QCPCurve::draw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPCurve.html#ac199d41d23865cd68bd7b598308a4433",tooltip=" "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="QCPBars::draw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPBars.html#aa267c20650d55084c3f47cb2f8fac9dc",tooltip=" "];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="QCPStatisticalBox::draw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPStatisticalBox.html#afcff35fa79728cfe10e80e0702014fea",tooltip=" "];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="QCPErrorBars::draw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPErrorBars.html#a801e85931372abf2a1034bfb2eac5cd2",tooltip=" "];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="QCPPlottableLegendItem\l::minimumOuterSizeHint",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPPlottableLegendItem.html#a8b543f3ac32b2fe59326e01c1101b3b8",tooltip=" "];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="QCPAbstractPlottable\l::setName",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPAbstractPlottable.html#ab79c7ba76bc7fa89a4b3580e12149f1f",tooltip=" "];
+  Node9 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="QCustomPlot::addGraph",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCustomPlot.html#a2836a46e31d5aee174ae054c0aa6580b",tooltip=" "];
+}

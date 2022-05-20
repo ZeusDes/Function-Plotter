@@ -1,9 +1,25 @@
+/**
+ * @file evaluatePostfix.h
+ * @author Muhammad Ahmad (muhammadathabet@gmail.com)
+ * @brief This File contains the function to evaluate the postfix expression
+ * @version 1.0.0-beta
+ * @date 2022-05-20
+ * 
+ * @copyright Copyright (c) 2022
+ * 
+ */
+
 #ifndef EVALUATEPOSTFIX_H
 #define EVALUATEPOSTFIX_H
 #include "validateInput.h"
 #include <QObject>
 
-// Convert valid expression into vactor of elements that can be processed by evaluate functions
+/**
+ * @brief Convert valid expression into vactor of elements that can be processed by evaluate functions
+ * 
+ * @param expr The expression to be converted to postfix notation
+ * @return QVector<QString> 
+ */
 QVector<QString> infix2Postfix(QString expr){
     QVector<QString> postfix;
     QStack<QChar> op;
@@ -57,7 +73,13 @@ QVector<QString> infix2Postfix(QString expr){
     return postfix;
 }
 
-// Evaluate expression according to a given value
+/**
+ * @brief Evaluate expression according to a given value
+ * 
+ * @param pF The postfix notation of the expression
+ * @param val The value of x in the expression
+ * @return double 
+ */ 
 double evaluate(QVector<QString> pF, double val){
     QStack<double> operands;
     double A, B;

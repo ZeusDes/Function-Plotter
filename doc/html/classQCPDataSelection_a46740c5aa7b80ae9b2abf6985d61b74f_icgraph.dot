@@ -1,0 +1,38 @@
+digraph "QCPDataSelection::addDataRange"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="QCPDataSelection::addData\lRange",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="QCPDataSelection::intersection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPDataSelection.html#af5267ced53687561367105ee77b874ab",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="QCPDataSelection::intersection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPDataSelection.html#af296ec5a948656c1d1ecb7b2970d2a24",tooltip=" "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="QCPDataSelection::inverse",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPDataSelection.html#ae8097f4e4ffee7b1b5df27c93eb365db",tooltip=" "];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="QCPAbstractPlottable1D\l\< QCPCurveData \>::getDataSegments",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPAbstractPlottable1D.html#ae890e62ce403c54f575c73b9529f1af8",tooltip=" "];
+  Node4 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="QCPErrorBars::getDataSegments",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPErrorBars.html#a243e0bb2563fc2e9f08efd77e7175abf",tooltip=" "];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="QCPErrorBars::draw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPErrorBars.html#a801e85931372abf2a1034bfb2eac5cd2",tooltip=" "];
+  Node4 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="QCPPolarGraph::getDataSegments",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPPolarGraph.html#a984e21a4d3189d3fce60a3b883a86752",tooltip=" "];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="QCPPolarGraph::draw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPPolarGraph.html#a2a053fc53b7945cd2e3b93cef9cade9a",tooltip=" "];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="QCPDataSelection::operator+=",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPDataSelection.html#a17058640d4e6f49984a0e7e42043df1b",tooltip=" "];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="QCPAbstractPlottable1D\l\< QCPCurveData \>::selectTest",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPAbstractPlottable1D.html#a2f169c3c2989e5d08ec7a9e3eb56a261",tooltip=" "];
+  Node1 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="QCPAbstractPlottable1D\l\< QCPCurveData \>::selectTestRect",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPAbstractPlottable1D.html#a22377bf6e57ab7eedbc9e489250c6ded",tooltip=" "];
+  Node1 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="QCPBars::selectTestRect",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPBars.html#ab03bb6125c3e983b89d694f75ce6b3d5",tooltip=" "];
+  Node1 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="QCPStatisticalBox::\lselectTestRect",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPStatisticalBox.html#a42febad6ad5e924a151434cc434b4ffc",tooltip=" "];
+  Node1 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="QCPFinancial::selectTestRect",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPFinancial.html#a3c5beb1ab028a1dba845fc9dcffc7cf4",tooltip=" "];
+  Node1 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="QCPErrorBars::selectTestRect",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPErrorBars.html#ad7c727736599dfb173f0952082e1a5b6",tooltip=" "];
+}

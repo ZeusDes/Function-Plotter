@@ -1,0 +1,21 @@
+digraph "QCPPolarAxisRadial::setRange"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="QCPPolarAxisRadial\l::setRange",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="QCPPolarAxisRadial\l::setRange",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPPolarAxisRadial.html#a6a1ee54cda58cc96bd805b533ba081b0",tooltip=" "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="QCPPolarAxisRadial\l::range",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPPolarAxisRadial.html#a9b61a998e6ef4a46dd26bf0fcfd70640",tooltip=" "];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="QCPRange::sanitizedForLin\lScale",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPRange.html#a808751fdd9b17ef52327ba011df2e5f1",tooltip=" "];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="QCPRange::normalize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPRange.html#af914a7740269b0604d0827c634a878a9",tooltip=" "];
+  Node2 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="QCPRange::sanitizedForLog\lScale",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPRange.html#a3d66288d66e1d6df3636075eb42502ee",tooltip=" "];
+  Node6 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="QCPRange::validRange",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPRange.html#ab38bd4841c77c7bb86c9eea0f142dcc0",tooltip=" "];
+}

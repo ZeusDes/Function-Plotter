@@ -1,0 +1,14 @@
+digraph "QCPLayout::simplify"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="QCPLayout::simplify",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="QCPLayout::clear",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPLayout.html#a02883bdf2769b5b227f0232dba1ac4ee",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="QCPLayoutGrid::~QCPLayoutGrid",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPLayoutGrid.html#ab4a55415452c4a58a408c4860a303bc5",tooltip=" "];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="QCPLayoutInset::~QCPLayout\lInset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPLayoutInset.html#a3726b9068ad31556ab60b714b5d0f9d3",tooltip=" "];
+}

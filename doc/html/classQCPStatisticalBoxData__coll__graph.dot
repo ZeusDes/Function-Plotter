@@ -1,0 +1,11 @@
+digraph "QCPStatisticalBoxData"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{QCPStatisticalBoxData\n||+ QCPStatisticalBoxData()\l+ QCPStatisticalBoxData()\l+ sortKey()\l+ mainKey()\l+ mainValue()\l+ valueRange()\l+ fromSortKey()\l+ sortKeyIsMainKey()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Holds the data of one single data point for QCPStatisticalBox."];
+  Node2 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +lowerQuartile\n+minimum\n+maximum\n+median\n+upperQuartile\n+key" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node2 [label="{double\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node3 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +outliers" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node3 [label="{QVector\< double \>\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+}

@@ -1,0 +1,31 @@
+digraph "QCPVector2D::QCPVector2D"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="QCPVector2D::QCPVector2D",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="QCPVector2D::distanceSquared\lToLine",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPVector2D.html#a0c44ca97d46ee04feec32c1c57e70831",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="QCPVector2D::normalized",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPVector2D.html#a707bb3af3b1f9331a2450ec75eaf7eb0",tooltip=" "];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="QCPItemBracket::anchorPixel\lPosition",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPItemBracket.html#a008d87325d26b6616d368cec06027cce",tooltip=" "];
+  Node3 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="QCPLineEnding::draw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPLineEnding.html#a4f45db54f2aba03acf055e29aec1e8e7",tooltip=" "];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="QCPLineEnding::draw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPLineEnding.html#af7ac30a81ba85b9bded148c6ec387391",tooltip=" "];
+  Node5 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="QCPAxisPainterPrivate\l::draw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPAxisPainterPrivate.html#a0207a99bdf9c4f70af20928898ddc2fc",tooltip=" "];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="QCPAxis::draw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPAxis.html#ac15ebb4225ca5212d8e5fffae481bc9b",tooltip=" "];
+  Node5 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="QCPItemLine::draw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPItemLine.html#ae184140b61b2ef5b8edde76304447200",tooltip=" "];
+  Node5 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="QCPItemCurve::draw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPItemCurve.html#a856ae61de18278847ba5e0e357bf68f2",tooltip=" "];
+  Node3 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="QCPItemBracket::draw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPItemBracket.html#a942a3978aea44a2fc7b4383f2bf6d417",tooltip=" "];
+  Node3 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="QCPItemBracket::selectTest",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPItemBracket.html#a8c3bc895c9db93e97a291a1199f6f8c6",tooltip=" "];
+}

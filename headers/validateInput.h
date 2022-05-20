@@ -1,3 +1,14 @@
+/**
+ * @file validateInput.h
+ * @author Muhammad Ahmad (muhammadathabet@gmail.com)
+ * @brief This file contains the function prototypes for the validateInput.cpp file
+ * @version 1.0.0-beta
+ * @date 2022-05-20
+ * 
+ * @copyright Copyright (c) 2022
+ * 
+ */
+
 #ifndef VALIDATEINPUT_H
 #define VALIDATEINPUT_H
 #include<QString>
@@ -7,32 +18,61 @@
 #include<qmath.h>
 #include<QChar>
 
-// Checking if the character is an supported operation or not.
+/**
+ * @brief Checking if the character is an supported operation or not.
+ * 
+ * @param c Character to be checked.
+ * @return true 
+ * @return false 
+ */
 inline bool isOperator(QChar c){
     if(c == '+' || c == '-' || c == '*' || c == '/' || c == '^') return 1;
     return 0;
 }
 
-// Checking if the character is Digit or not.
+/**
+ * @brief Checking if the character is Digit or not.
+ * 
+ * @param c Character to be checked. 
+ * @return true 
+ * @return false 
+ */
 bool isDigit(QChar c){
     if(c >= '0' && c <= '9') return 1;
     return 0;
 }
 
-// Checking if the character belongs to alphabet or not.
+/**
+ * @brief Checking if the character belongs to alphabet or not.
+ * 
+ * @param c Character to be checked. 
+ * @return true 
+ * @return false 
+ */
 bool isAlpha(QChar c){
     if(c >= 'a' && c <= 'z') return 1;
     else if(c >= 'A' && c <= 'Z') return 1;
     return 0;
 }
 
-// Checking if the character is Alphanumeric
+/**
+ * @brief Checking if the character is Alphanumeric
+ * 
+ * @param c Character to be checked.
+ * @return true 
+ * @return false 
+ */
 bool isAlNum(QChar c){
     if(isDigit(c) || isAlpha(c)) return 1;
     return 0;
 }
 
-// Checking the validity of an exprission
+/**
+ * @brief Checking the validity of an exprission
+ * 
+ * @param expr The Math expression to be checked.
+ * @return QVector<QString> 
+ */
 QVector<QString> isValid(QString expr){
     int length = expr.size();
     bool flag = false; // This flag to check that no more than on dot exists in single decimal number
@@ -93,7 +133,13 @@ QVector<QString> isValid(QString expr){
     return errors;
 }
 
-// Make input String Spaces-free
+/**
+ * @brief Make input String Spaces-free
+ * 
+ * @param original The Original String
+ * @return QString The Spaces-free String
+ */
+
 QString input(QString original){
     QString cleaned = "";
     for(int i = 0; i < original.size(); i++){

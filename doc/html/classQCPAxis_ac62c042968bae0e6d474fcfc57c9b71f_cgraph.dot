@@ -1,0 +1,36 @@
+digraph "QCPAxis::QCPAxis"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="QCPAxis::QCPAxis",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="QCustomPlot::currentLayer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCustomPlot.html#a0421d647f420b0b4c57aec1708857af5",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="QCPLayerable::setAntialiased",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPLayerable.html#a4fd43e89be4a553ead41652565ff0581",tooltip=" "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="QCPAxis::setLabelPadding",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPAxis.html#a4391192a766e5d20cfe5cbc17607a7a2",tooltip=" "];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="QCPAxis::padding",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPAxis.html#a07df379d5c017b8f3a4702532eb037b2",tooltip=" "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="QCPLayerable::setLayer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPLayerable.html#ab0d0da6d2de45a118886d2c8e16d5a54",tooltip=" "];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="QCPLayerable::layer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPLayerable.html#a5ff4862e8c784c9f5986dbc1533ba2a4",tooltip=" "];
+  Node6 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="QCPLayerable::moveToLayer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPLayerable.html#af94484cfb7cbbddb7de522e9be71d9a4",tooltip=" "];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="QCPLayer::addChild",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPLayer.html#a57ce5e49364aa9122276d5df3b4a0ddc",tooltip=" "];
+  Node8 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="QCPLayer::name",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPLayer.html#a37806f662b50b588fb1029a14fc5ef50",tooltip=" "];
+  Node8 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="QCPLayer::parentPlot",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPLayer.html#a5520019787482e13857ebe631c27c3fa",tooltip=" "];
+  Node8 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="QCPLayer::removeChild",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPLayer.html#ac2f64ac7761650582d968d86670ef362",tooltip=" "];
+  Node1 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="QCPAxis::setTickLabelPadding",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPAxis.html#af302c479af9dbc2e9f0e44e07c0012ee",tooltip=" "];
+  Node13 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="QCPLayerable::setVisible",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPLayerable.html#a3bed99ddc396b48ce3ebfdc0418744f8",tooltip=" "];
+}

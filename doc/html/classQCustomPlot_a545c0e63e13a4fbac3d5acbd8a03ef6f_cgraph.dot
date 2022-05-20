@@ -1,0 +1,14 @@
+digraph "QCustomPlot::plottableAt"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="QCustomPlot::plottableAt",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="QCPDataRange::begin",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPDataRange.html#ae76d7eba9defdfafcd0fc41096793129",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="QCPDataSelection::dataRange",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPDataSelection.html#a6956acf6a9a49a353b4f9b58608978ad",tooltip=" "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="QCPDataSelection::isEmpty",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPDataSelection.html#a7f7526b475998dc0c3d6c376b24736c9",tooltip=" "];
+}

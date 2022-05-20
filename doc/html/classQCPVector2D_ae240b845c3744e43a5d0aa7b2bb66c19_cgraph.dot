@@ -1,0 +1,14 @@
+digraph "QCPVector2D::distanceToStraightLine"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="QCPVector2D::distanceToStraightLine",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="QCPVector2D::dot",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPVector2D.html#a39f8d28db7dbffcca6aa63a1f1f6e176",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="QCPVector2D::length",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPVector2D.html#a10adb5ab031fe94f0b64a3c5aefb552e",tooltip=" "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="QCPVector2D::perpendicular",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPVector2D.html#a0e08d09f9027784237e302e32290b001",tooltip=" "];
+}

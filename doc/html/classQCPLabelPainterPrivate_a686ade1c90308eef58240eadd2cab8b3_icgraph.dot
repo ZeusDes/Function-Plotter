@@ -1,0 +1,20 @@
+digraph "QCPLabelPainterPrivate::padding"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="QCPLabelPainterPrivate\l::padding",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="QCPLabelPainterPrivate\l::setPadding",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPLabelPainterPrivate.html#ace8b88df19a023b6a9cfd5c5f3891e3e",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="QCPPolarAxisRadial\l::setTickLabelPadding",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPPolarAxisRadial.html#a9df8e97dd9a57cc40f06bc2e6023171f",tooltip=" "];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="QCPPolarAxisRadial\l::QCPPolarAxisRadial",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPPolarAxisRadial.html#acd7247b9f2196e1053f236b950a13b60",tooltip=" "];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="QCPPolarAxisAngular\l::setTickLabelPadding",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPPolarAxisAngular.html#ad7bfedb138fedcdd19ce574baedd4f3f",tooltip=" "];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="QCPPolarAxisAngular\l::QCPPolarAxisAngular",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPPolarAxisAngular.html#afd2ca3525663193c15bc876a293ceb24",tooltip=" "];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="QCPPolarAxisAngular\l::tickLabelPadding",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPPolarAxisAngular.html#ab698c848ff49d02fd6e7bd36fa6cc7f0",tooltip=" "];
+}

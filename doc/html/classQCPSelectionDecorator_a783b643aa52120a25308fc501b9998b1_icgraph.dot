@@ -1,0 +1,19 @@
+digraph "QCPSelectionDecorator::brush"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="QCPSelectionDecorator\l::brush",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="QCPSelectionDecorator\l::copyFrom",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPSelectionDecorator.html#a467a8d5cfcab27e862a17c797ac27b8a",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="QCPSelectionDecoratorBracket\l::setBracketBrush",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPSelectionDecoratorBracket.html#a2f4ea0bfb0ea980252b76dd349dd53aa",tooltip=" "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="QCPSelectionDecorator\l::setBrush",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPSelectionDecorator.html#aa74b626be518ea17055f918d423c8c2d",tooltip=" "];
+  Node4 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="QCPBars::QCPBars",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPBars.html#a64006999ad9dff308f40df41cef176ad",tooltip=" "];
+  Node4 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="QCPFinancial::QCPFinancial",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPFinancial.html#a4702d5248feeb9d1ec6e3ce725b10b32",tooltip=" "];
+}

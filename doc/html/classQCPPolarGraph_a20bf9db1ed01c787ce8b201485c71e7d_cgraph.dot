@@ -1,0 +1,14 @@
+digraph "QCPPolarGraph::drawPolyline"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="QCPPolarGraph::drawPolyline",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="QCPPainter::drawLine",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPPainter.html#a0b4b1b9bd495e182c731774dc800e6e0",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="QCPPainter::modes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPPainter.html#aef102658219b24165f7ee2aad1b9e48f",tooltip=" "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="QCustomPlot::plottingHints",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCustomPlot.html#ac724f4075822f74f7b676a790095b877",tooltip=" "];
+}

@@ -1,0 +1,44 @@
+digraph "QCPPolarAxisAngular::update"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="QCPPolarAxisAngular\l::update",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="QCPLayoutElement::rect",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPLayoutElement.html#a208effccfe2cca4a0eaf9393e60f2dd4",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="QCPLayoutElement::setOuterRect",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPLayoutElement.html#a38975ea13e36de8e53391ce41d94bc0f",tooltip=" "];
+  Node3 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="QCPPolarAxisAngular\l::setupTickVectors",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPPolarAxisAngular.html#a7c0b6a474a7d35f38e140c73bb8aa503",tooltip=" "];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="QCPPolarAxisAngular\l::coordToAngleRad",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPPolarAxisAngular.html#adcf5f87f947e7eed1cc76548911d9760",tooltip=" "];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="QCPRange::size",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPRange.html#a62326e7cc4316b96df6a60813230e63f",tooltip=" "];
+  Node4 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="QCPLayerable::visible",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPLayerable.html#af0297b944b6192b6d67d00bff41b6b70",tooltip=" "];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="QCPLayoutElement::update",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPLayoutElement.html#a929c2ec62e0e0e1d8418eaa802e2af9b",tooltip=" "];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="QCPLayoutElement::calculate\lAutoMargin",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPLayoutElement.html#a005c9f0fe84bc1591a2cf2c46fd477b4",tooltip=" "];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="QCP::getMarginValue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespaceQCP.html#a23a2679d3495c444acc26acc61e35b5b",tooltip=" "];
+  Node8 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="QCPLayoutElement::setMargins",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPLayoutElement.html#a8f450b1f3f992ad576fce2c63d8b79cf",tooltip=" "];
+  Node11 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="QCPLayoutElement::margins",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPLayoutElement.html#af4ac9450aa2d60863bf3a8ea0c940c9d",tooltip=" "];
+  Node8 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="QCP::setMarginValue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespaceQCP.html#afbf6e3084c108f2bb4372107945ee82f",tooltip=" "];
+  Node1 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="QCPLayout::update",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPLayout.html#a48ecc9c98ea90b547c3e27a931a8f7bd",tooltip=" "];
+  Node14 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="QCPLayout::elementAt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPLayout.html#afa73ca7d859f8a3ee5c73c9b353d2a56",tooltip=" "];
+  Node14 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="QCPLayout::elementCount",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPLayout.html#a39d3e9ef5d9b82ab1885ba1cb9597e56",tooltip=" "];
+  Node14 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="QCPLayout::updateLayout",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPLayout.html#a165c77f6287ac92e8d03017ad913378b",tooltip=" "];
+}

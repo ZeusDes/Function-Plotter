@@ -1,0 +1,12 @@
+digraph "QCPAxisTickerDateTime::dateTimeToKey"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="QCPAxisTickerDateTime\l::dateTimeToKey",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="QCPAxisTickerDateTime\l::createTickVector",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPAxisTickerDateTime.html#a44c2c09a303d281801b69226e243047d",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="QCPAxisTickerDateTime\l::setTickOrigin",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPAxisTickerDateTime.html#a2ea905872b8171847a49a5e093fb0c48",tooltip=" "];
+}

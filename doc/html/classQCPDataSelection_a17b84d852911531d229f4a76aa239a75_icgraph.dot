@@ -1,0 +1,24 @@
+digraph "QCPDataSelection::enforceType"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="QCPDataSelection::enforceType",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="QCPAbstractPlottable\l::setSelectable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPAbstractPlottable.html#ac238d6e910f976f1f30d41c2bca44ac3",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="QCPPolarGraph::setSelectable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPPolarGraph.html#ab69bb9f6074ba180e74e535fd6494f96",tooltip=" "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="QCPAbstractPlottable\l::setSelection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPAbstractPlottable.html#a219bc5403a9d85d3129165ec3f5ae436",tooltip=" "];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="QCPAbstractPlottable\l::deselectEvent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPAbstractPlottable.html#a9b104d9da4f38f934363945c313bf82e",tooltip=" "];
+  Node4 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="QCPAbstractPlottable\l::selectEvent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPAbstractPlottable.html#a2d488568cf16600dd81fa23d7d439829",tooltip=" "];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="QCPPolarGraph::setSelection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPPolarGraph.html#ab5cc3f205eeb153dd3a28c11b996ccb2",tooltip=" "];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="QCPPolarGraph::deselectEvent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPPolarGraph.html#a3372c079d5859f513d18384890945072",tooltip=" "];
+  Node7 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="QCPPolarGraph::selectEvent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPPolarGraph.html#a1bc6a4af76e45ce13cd4f544062ff8b3",tooltip=" "];
+}

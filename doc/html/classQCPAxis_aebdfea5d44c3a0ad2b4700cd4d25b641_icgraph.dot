@@ -1,0 +1,34 @@
+digraph "QCPAxis::setRange"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="QCPAxis::setRange",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="QCPAxis::mouseMoveEvent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPAxis.html#ac5a269609e6177737faabdc46434d8c7",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="QCPAxisRect::mouseMoveEvent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPAxisRect.html#a9cd27ad8c5cfb49aefd9dbb30def4beb",tooltip=" "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="QCPAxis::rescale",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPAxis.html#a499345f02ebce4b23d8ccec96e58daa9",tooltip=" "];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="QCustomPlot::rescaleAxes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCustomPlot.html#ad86528f2cee6c7e446dea4a6e8839935",tooltip=" "];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="QCPAbstractPlottable\l::rescaleKeyAxis",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPAbstractPlottable.html#ae96b83c961e257da116c6acf9c7da308",tooltip=" "];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="QCPAbstractPlottable\l::rescaleAxes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPAbstractPlottable.html#a1491c4a606bccd2d09e65e11b79eb882",tooltip=" "];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="QCPAbstractPlottable\l::rescaleValueAxis",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPAbstractPlottable.html#a714eaf36b12434cd71846215504db82e",tooltip=" "];
+  Node8 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="QCPAxis::setRange",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPAxis.html#acf60e5b2d631fbc8c4548c3d579cb6d0",tooltip=" "];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="QCPAxis::setScaleRatio",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPAxis.html#af4bbd446dcaee5a83ac30ce9bcd6e125",tooltip=" "];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="QCPAxis::setScaleType",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPAxis.html#adef29cae617af4f519f6c40d1a866ca6",tooltip=" "];
+  Node11 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="QCPAxisRect::setupFullAxesBox",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPAxisRect.html#a5fa906175447b14206954f77fc7f1ef4",tooltip=" "];
+  Node1 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="QCPAxisRect::zoom",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPAxisRect.html#ae481c28b50e10cfbbec59fde45e77367",tooltip=" "];
+}

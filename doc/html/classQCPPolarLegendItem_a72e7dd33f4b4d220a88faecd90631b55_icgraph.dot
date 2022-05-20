@@ -1,0 +1,12 @@
+digraph "QCPPolarLegendItem::getFont"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="QCPPolarLegendItem\l::getFont",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="QCPPolarLegendItem\l::draw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPPolarLegendItem.html#abf9639f11bfc64779f243cca920aadef",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="QCPPolarLegendItem\l::minimumOuterSizeHint",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPPolarLegendItem.html#a17e2c0da8308a014b1d4339131215217",tooltip=" "];
+}

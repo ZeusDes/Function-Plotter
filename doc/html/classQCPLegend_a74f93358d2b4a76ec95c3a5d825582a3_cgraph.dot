@@ -1,0 +1,16 @@
+digraph "QCPLegend::draw"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="QCPLegend::draw",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="QCPLegend::getBorderPen",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPLegend.html#a1cf9df6f2130c5ad842dc92188ab6bd7",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="QCPLegend::getBrush",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPLegend.html#ab1438d5d67304cdda3b9339da580d6bc",tooltip=" "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="QCPPainter::setPen",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPPainter.html#af9c7a4cd1791403901f8c5b82a150195",tooltip=" "];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="QCPPainter::makeNonCosmetic",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPPainter.html#a7e63fbcf47e35c6f2ecd11b8fef7c7d8",tooltip=" "];
+}

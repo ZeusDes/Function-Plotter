@@ -1,0 +1,12 @@
+digraph "QCPTextElement::setSelected"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="QCPTextElement::setSelected",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="QCPTextElement::deselect\lEvent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPTextElement.html#a9a631a9deb9d82089a9d52de1744accf",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="QCPTextElement::selectEvent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPTextElement.html#a8d696ea82fa7bf743e01858039c03525",tooltip=" "];
+}

@@ -1,0 +1,9 @@
+digraph "QCPSelectionDecorator"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{QCPSelectionDecorator\n|# mPen\l# mBrush\l# mScatterStyle\l# mUsedScatterProperties\l# mPlottable\l|+ QCPSelectionDecorator()\l+ ~QCPSelectionDecorator()\l+ pen()\l+ brush()\l+ scatterStyle()\l+ usedScatterProperties()\l+ setPen()\l+ setBrush()\l+ setScatterStyle()\l+ setUsedScatterProperties()\l+ applyPen()\l+ applyBrush()\l+ getFinalScatterStyle()\l+ copyFrom()\l+ drawDecoration()\l# registerWithPlottable()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Controls how a plottable's data selection is drawn."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{QCPSelectionDecoratorBracket\n|# mBracketPen\l# mBracketBrush\l# mBracketWidth\l# mBracketHeight\l# mBracketStyle\l# mTangentToData\l# mTangentAverage\l|+ QCPSelectionDecoratorBracket()\l+ ~QCPSelectionDecoratorBracket()\l+ bracketPen()\l+ bracketBrush()\l+ bracketWidth()\l+ bracketHeight()\l+ bracketStyle()\l+ tangentToData()\l+ tangentAverage()\l+ setBracketPen()\land 8 more...\l# getTangentAngle()\l# getPixelCoordinates()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPSelectionDecoratorBracket.html",tooltip="A selection decorator which draws brackets around each selected data segment."];
+}

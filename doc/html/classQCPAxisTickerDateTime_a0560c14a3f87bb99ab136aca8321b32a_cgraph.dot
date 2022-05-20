@@ -1,0 +1,20 @@
+digraph "QCPAxisTickerDateTime::getTickStep"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="QCPAxisTickerDateTime\l::getTickStep",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="QCPAxisTicker::cleanMantissa",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPAxisTicker.html#ac7df6c72876b7abd67c932663a0b0f6a",tooltip=" "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="QCPAxisTicker::getMantissa",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPAxisTicker.html#abe99aaaf6c512812869b0a19937c76ff",tooltip=" "];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="input",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$validateInput_8h.html#a862ee41183463d2af6056589b31a5cdc",tooltip="Make input String Spaces-free."];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="QCPAxisTicker::pickClosest",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPAxisTicker.html#a4ea0a7c4ca1c610f92b9bd5944ab4260",tooltip=" "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="QCPRange::size",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPRange.html#a62326e7cc4316b96df6a60813230e63f",tooltip=" "];
+}

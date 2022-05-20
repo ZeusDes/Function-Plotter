@@ -1,0 +1,17 @@
+digraph "QCPSelectionDecorator::pen"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="QCPSelectionDecorator::pen",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="QCPSelectionDecorator\l::copyFrom",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPSelectionDecorator.html#a467a8d5cfcab27e862a17c797ac27b8a",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="QCPCurve::draw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPCurve.html#ac199d41d23865cd68bd7b598308a4433",tooltip=" "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="QCPSelectionDecoratorBracket\l::setBracketPen",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPSelectionDecoratorBracket.html#ac0e392a6097990f8aa978932a8fa05d6",tooltip=" "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="QCPSelectionDecorator\l::setPen",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPSelectionDecorator.html#ac2c8192e1e294aa3a4a7f32a859e3d76",tooltip=" "];
+  Node5 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

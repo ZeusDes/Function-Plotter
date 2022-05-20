@@ -1,0 +1,27 @@
+digraph "QCPLayoutInset::elementAt"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="QCPLayoutInset::elementAt",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="QCPLayoutInset::insetAlignment",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPLayoutInset.html#a5b33b66f0abbb4a7cc2f8aa6c94cf7f8",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="QCPLayoutInset::insetPlacement",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPLayoutInset.html#a6fcbd74ebbc45bfe64c604b2791aa57f",tooltip=" "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="QCPLayoutInset::insetRect",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPLayoutInset.html#ab23099a46af17c31f4c40668f13c9de1",tooltip=" "];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="QCPLayoutInset::updateLayout",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPLayoutInset.html#a493526b922ea66a75c45ef1842446988",tooltip=" "];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="QCPLayoutInset::setInset\lAlignment",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPLayoutInset.html#a62882a4f9ad58bb0f53da12fde022abe",tooltip=" "];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="QCPLayoutInset::setInset\lPlacement",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPLayoutInset.html#a63298830744d5d8c5345511c00fd2144",tooltip=" "];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="QCPLayoutInset::setInsetRect",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPLayoutInset.html#aa487c8378a6f9533567a2e6430099dc3",tooltip=" "];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="QCPLayoutInset::take",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPLayoutInset.html#af7f13cc369f8190b5e7e17d5f39dfe1c",tooltip=" "];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="QCPLayoutInset::takeAt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPLayoutInset.html#abf2e8233f5b7051220907e62ded490a2",tooltip=" "];
+  Node10 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

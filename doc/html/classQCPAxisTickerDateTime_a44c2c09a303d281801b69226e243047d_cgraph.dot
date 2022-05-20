@@ -1,0 +1,14 @@
+digraph "QCPAxisTickerDateTime::createTickVector"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="QCPAxisTickerDateTime\l::createTickVector",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="QCPAxisTicker::createTick\lVector",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPAxisTicker.html#af4645a824c7bd2ca8fc7e86ebf9055bd",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="QCPAxisTickerDateTime\l::dateTimeToKey",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPAxisTickerDateTime.html#a23705013d5f289de98667bd46950ac8c",tooltip=" "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="QCPAxisTickerDateTime\l::keyToDateTime",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPAxisTickerDateTime.html#a4c1761ad057f5564804a53f942629b53",tooltip=" "];
+}

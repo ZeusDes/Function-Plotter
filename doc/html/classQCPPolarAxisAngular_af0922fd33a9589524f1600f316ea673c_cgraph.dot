@@ -1,0 +1,12 @@
+digraph "QCPPolarAxisAngular::setTickLabelRotation"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="QCPPolarAxisAngular\l::setTickLabelRotation",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="QCPLabelPainterPrivate\l::setRotation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPLabelPainterPrivate.html#a4b27eb5c5112a5f2fb609d68c0fae4a1",tooltip=" "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="QCPLabelPainterPrivate\l::rotation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPLabelPainterPrivate.html#a277c90ccb57b40e0e573126bd9169174",tooltip=" "];
+}

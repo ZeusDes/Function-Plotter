@@ -1,0 +1,23 @@
+digraph "QCPAxisTickerTime"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{QCPAxisTickerTime\n||+ QCPAxisTickerTime()\l+ timeFormat()\l+ fieldWidth()\l+ setTimeFormat()\l+ setFieldWidth()\l# getTickStep()\l# getSubTickCount()\l# getTickLabel()\l# replaceUnit()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Specialized axis ticker for time spans in units of milliseconds to days."];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{QCPAxisTicker\n||+ QCPAxisTicker()\l+ ~QCPAxisTicker()\l+ tickStepStrategy()\l+ tickCount()\l+ tickOrigin()\l+ setTickStepStrategy()\l+ setTickCount()\l+ setTickOrigin()\l+ generate()\l# getTickStep()\l# getSubTickCount()\l# getTickLabel()\l# createTickVector()\l# createSubTickVector()\l# createLabelVector()\l# trimTicks()\l# pickClosest()\l# getMantissa()\l# cleanMantissa()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPAxisTicker.html",tooltip="The base class tick generator used by QCPAxis to create tick positions and tick labels."];
+  Node3 -> Node2 [color="grey25",fontsize="10",style="solid",label=" #mTickStepStrategy" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node3 [label="{TickStepStrategy\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node4 -> Node2 [color="grey25",fontsize="10",style="solid",label=" #mTickOrigin" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node4 [label="{double\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node5 -> Node2 [color="grey25",fontsize="10",style="solid",label=" #mTickCount" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node5 [label="{int\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node6 -> Node1 [color="grey25",fontsize="10",style="solid",label=" #mFormatPattern" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node6 [label="{QHash\< TimeUnit, QString \>\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node7 -> Node1 [color="grey25",fontsize="10",style="solid",label=" #mTimeFormat" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node7 [label="{QString\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node8 -> Node1 [color="grey25",fontsize="10",style="solid",label=" #mSmallestUnit\n#mBiggestUnit" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node8 [label="{TimeUnit\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node9 -> Node1 [color="grey25",fontsize="10",style="solid",label=" #mFieldWidth" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node9 [label="{QHash\< TimeUnit, int \>\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+}

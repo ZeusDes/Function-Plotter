@@ -1,0 +1,34 @@
+digraph "QCPAxisTicker::generate"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="QCPAxisTicker::generate",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="QCPAxisTicker::createLabel\lVector",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPAxisTicker.html#a804050e408f37a0b9770c6654ebe6aa7",tooltip=" "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="QCPAxisTicker::getTickLabel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPAxisTicker.html#a8201eb4aa8be192bf786b126eb5ee089",tooltip=" "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="QCPAxisTicker::createSub\lTickVector",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPAxisTicker.html#a9a6435723fa0bd366d1ea4c2cff7c33f",tooltip=" "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="QCPAxisTicker::createTick\lVector",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPAxisTicker.html#af4645a824c7bd2ca8fc7e86ebf9055bd",tooltip=" "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="QCPAxisTicker::getSubTick\lCount",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPAxisTicker.html#a4ccc403ced7a1457ce6ba293509933c8",tooltip=" "];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="QCPAxisTicker::getMantissa",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPAxisTicker.html#abe99aaaf6c512812869b0a19937c76ff",tooltip=" "];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="input",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$validateInput_8h.html#a862ee41183463d2af6056589b31a5cdc",tooltip="Make input String Spaces-free."];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="QCPAxisTicker::getTickStep",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPAxisTicker.html#a910d69bcec2de37e92d8d4e1ecf201e2",tooltip=" "];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="QCPAxisTicker::cleanMantissa",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPAxisTicker.html#ac7df6c72876b7abd67c932663a0b0f6a",tooltip=" "];
+  Node10 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="QCPAxisTicker::pickClosest",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPAxisTicker.html#a4ea0a7c4ca1c610f92b9bd5944ab4260",tooltip=" "];
+  Node9 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="QCPRange::size",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPRange.html#a62326e7cc4316b96df6a60813230e63f",tooltip=" "];
+  Node1 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="QCPAxisTicker::trimTicks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPAxisTicker.html#ab28cc1ab549489be7975f5ce7e717916",tooltip=" "];
+}

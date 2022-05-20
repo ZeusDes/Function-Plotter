@@ -1,0 +1,12 @@
+digraph "QCPSelectionRect::changed"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="QCPSelectionRect::changed",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="QCPSelectionRect::moveSelection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCPSelectionRect.html#a95c3f1700be2a6d7bba0fe56ece5fbb1",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="QCustomPlot::mouseMoveEvent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classQCustomPlot.html#ae7abdc93b26d2ad4632c1ab75ae5b46f",tooltip=" "];
+}
